@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ShopEase</h1>
+    <p>Modern E-Commerce Dashboard</p>
+</header>
+
+<div class="container">
+
+    <!-- Add Product -->
+    <section class="card">
+        <h2>Add Product</h2>
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="number" id="productPrice" placeholder="Price">
+        <button onclick="addProduct()">Add Product</button>
+    </section>
+
+    <!-- Products -->
+    <section class="card">
+        <h2>Products</h2>
+        <div id="productList"></div>
+    </section>
+
+    <!-- Add User -->
+    <section class="card">
+        <h2>Add User</h2>
+        <input type="text" id="userName" placeholder="Name">
+        <input type="email" id="userEmail" placeholder="Email">
+        <button onclick="addUser()">Add User</button>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
